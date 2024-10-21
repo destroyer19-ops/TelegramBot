@@ -33,7 +33,7 @@ def preprocess_image(image):
 
 # Define the start command handler
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await context.bot.send_message(chat_id=update.effective_chat.id, text="I'm a ENTER_BOT_NAME_HERE bot, please talk to me!")
+    await context.bot.send_message(chat_id=update.effective_chat.id, text="I'm your doctor assistant bot, please talk to me!")
 
 # Prediction function
 async def predict_and_reply(context: ContextTypes.DEFAULT_TYPE, image, chat_id, message_id):
