@@ -14,7 +14,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # API Endpoint of your web app for image classification
-API_ENDPOINT = 'https://lung-diseases-classification-n7om.onrender.com//classify'
+# API_ENDPOINT = 'https://lung-diseases-classification-n7om.onrender.com//classify'
+API_ENDPOINT = 'https://lung-diseases-classification-2.onrender.com/'
 
 # Define the start command handler
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
